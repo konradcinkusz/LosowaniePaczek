@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/LosowaniePaczek/obj/Debug
+/LosowaniePaczek/bin/Debug
+/.vs/ParcelNumberGenerator/v14/.suo
