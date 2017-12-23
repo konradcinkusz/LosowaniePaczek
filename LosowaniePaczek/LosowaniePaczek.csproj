@@ -81,13 +81,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\ParcelNumberGenerator\ParcelNumberGenerator.csproj">
       <Project>{9546577e-a1b7-4605-8571-573d0a0a9487}</Project>
       <Name>ParcelNumberGenerator</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

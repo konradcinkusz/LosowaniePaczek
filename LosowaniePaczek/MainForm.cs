@@ -44,16 +44,17 @@ namespace LosowaniePaczek
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            string connectionStringMOCK = "Integrated Security = SSPI; Initial Catalog = ParcelNumberGenerator; Data Source = localhost\\SQLEXPRESS;";
-
+            string connectionString = connectionStringtb.Text.Replace(@"\\", @"\");
             Tuple<int, int> range = new Tuple<int, int>((int)rangeFromup.Value, (int)rangeToup.Value);
             Tuple<int, int> rangeOff = new Tuple<int, int>((int)subRangeFromup.Value, (int)subRangeToup.Value);
-            INumberPoolGenerator pool = new NumberPoolDBv2WithRangeOff(rangeOff, range, connectionStringMOCK);
-            INumberPoolGenerator pool2 = new NumberPoolDBv2WithUBS(range, connectionStringMOCK) { Mode = Mode.Recursive };
-            
+
+            INumberPoolGenerator pool = rangeOff.Item1 != range.Item1 ?
+                (INumberPoolGenerator)(new NumberPoolDBv2WithRangeOff(rangeOff, range, connectionString)) :
+            new NumberPoolDBv2WithUBS(range, connectionString) { Mode = Mode.Recursive };
+
             progresBarActionName.Text = "Losuje numery";
             backgroundWorker1.WorkerReportsProgress = true;
-            backgroundWorker1.RunWorkerAsync(pool2);
+            backgroundWorker1.RunWorkerAsync(pool);
         }
         private void backgroundWorker1_DoWork(object sender, System.ComponentModel.DoWorkEventArgs e)
         {
