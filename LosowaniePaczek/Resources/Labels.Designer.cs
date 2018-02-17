@@ -61,6 +61,15 @@ namespace LosowaniePaczek.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Aplikacja zostanie zamknięta.
+        /// </summary>
+        internal static string AppShutDown {
+            get {
+                return ResourceManager.GetString("AppShutDown", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Nieprawidłowa wartość.
         /// </summary>
         internal static string IncorrectValue {
