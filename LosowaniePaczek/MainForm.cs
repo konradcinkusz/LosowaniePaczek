@@ -1,4 +1,5 @@
-﻿using ParcelNumberGenerator;
+﻿using LosowaniePaczek.Resources;
+using ParcelNumberGenerator;
 using ParcelNumberGenerator.OthersImplementations;
 using System;
 using System.Diagnostics;
@@ -14,11 +15,12 @@ namespace LosowaniePaczek
         {
             InitializeComponent();
         }
+
         private void numericUpDown2_MouseUp(object sender, EventArgs e)
         {
             if (rangeToup.Value < rangeFromup.Value)
             {
-                MessageBox.Show("Nieprawidłowa wartość");
+                MessageBox.Show(Labels.IncorrectValue);
             }
         }
         private void numericUpDown1_Click(object sender, EventArgs e)
