@@ -5,3 +5,6 @@
 /LosowaniePaczek/obj/Debug
 /LosowaniePaczek/bin/Debug
 /.vs/ParcelNumberGenerator/v14/.suo
+/packages
+/ParcelNumberGenerator.DAL/bin/Debug
+/ParcelNumberGenerator.DAL/obj/Debug
