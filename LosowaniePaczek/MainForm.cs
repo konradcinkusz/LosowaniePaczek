@@ -41,7 +41,7 @@ namespace LosowaniePaczek
         }
         private void zamknijToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aplikacja zostanie zamknięta!");
+            MessageBox.Show(Labels.AppShutDown);
             this.Close();
         }
         private void button1_Click(object sender, EventArgs e)
