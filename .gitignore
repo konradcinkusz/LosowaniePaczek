@@ -8,3 +8,5 @@
 /packages
 /ParcelNumberGenerator.DAL/bin/Debug
 /ParcelNumberGenerator.DAL/obj/Debug
+/ParcelNumberGenerator.Win/bin/Debug
+/ParcelNumberGenerator.Win/obj/Debug
