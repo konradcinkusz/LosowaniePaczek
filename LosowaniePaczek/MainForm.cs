@@ -4,12 +4,11 @@ using ParcelNumberGenerator.OthersImplementations;
 using System;
 using System.Diagnostics;
 using System.Drawing;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace LosowaniePaczek
 {
-    public partial class MainForm : System.Windows.Forms.Form
+    public partial class MainForm : Form
     {
         public MainForm()
         {
@@ -41,7 +40,7 @@ namespace LosowaniePaczek
         }
         private void zamknijToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aplikacja zostanie zamknięta!");
+            MessageBox.Show(Labels.AppShutDown);
             this.Close();
         }
         private void button1_Click(object sender, EventArgs e)
@@ -54,7 +53,7 @@ namespace LosowaniePaczek
                 (INumberPoolGenerator)(new NumberPoolDBv2WithRangeOff(rangeOff, range, connectionString)) :
             new NumberPoolDBv2WithUBS(range, connectionString) { Mode = Mode.Recursive };
 
-            progresBarActionName.Text = "Losuje numery";
+            progresBarActionName.Text = Labels.NumberGenerate;
             backgroundWorker1.WorkerReportsProgress = true;
             backgroundWorker1.RunWorkerAsync(pool);
         }
@@ -75,7 +74,6 @@ namespace LosowaniePaczek
                 backgroundWorker1.ReportProgress(100);
             }
         }
-
         private void backgroundWorker1_RunWorkerCompleted(object sender, System.ComponentModel.RunWorkerCompletedEventArgs e)
         {
 

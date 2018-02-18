@@ -117,13 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="AppShutDown" xml:space="preserve">
-    <value>Aplikacja zostanie zamknięta</value>
+  <data name="Target" xml:space="preserve">
+    <value>H4sIAAAAAAAEAM1Y227bOBB9X2D/QeDTLpCaToIFdgO5RdZOCqNxElRp32lp7BBLkVqSCqxv60M/qb+wQ+tqSVacywZFgMCiZoYzc+Zy7B/fvvsfNrHwHkAbruSEHI/GxAMZqojL9YSkdvXuT/Lh/a+/+BdRvPG+lnKnTg41pZmQe2uTM0pNeA8xM6OYh1oZtbKjUMWURYqejMd/0eNjCmiCoC3P8z+n0vIYtg/4OFUyhMSmTCxUBMIU5/gm2Fr1rlkMJmEhTMgt0yGI6zRegv4IEjSzSo9m51ejXJd454Iz9CsAsSIek1JZZtHrsy8GAquVXAcJHjBxlyWAcismDBTRnNXihwY2PnGB0VqxNBWmxqr4iQaPT4tM0bb6s/JNqkxiLi8w5zZzUW/zOSFTZmGtdEa89mVnU6Gd4OPpHpVGjry9okdV4WB9ub8jb5oKm2qYSEitZgKV06Xg4SfI7tQ/ICcyFaLpPLqP73YO8OhWqwS0zT7DqghpPiMe3dWjbcVKraGTBzuX9vSEeNd4OVsKqGqjkZgAY4IiOohumbWgEdp5BNvsdm5v3XWnwYTldViN2GbEW7DNFci1vZ+QP8bYWJd8A1F5UrjwRXLsSlSyOoXdW3xaIzuINzaAfhHWzsBPgnP0DJyjt8PZ/R+AGT++Msw4Qi3j6G7hQC9ITgg2tqcGENmiDExx9254+SUB2N3RwQHnbe1WPnRH9Vyhw1ZcPfUZyAu1L/gqzHpF0HxHlLuE7lkm/oIlCeLQWC7FiRfkm2X6Lnj6kI1zGzQ0PbO28ra6CUFga2i9xavR00uujZ0xy5bMVcI0ijtig6DuSXV5dQe3dpPVKJQq7vNANfVtgbbVOsuXGHiMzbPNAVTuNbZQR3W7/5lgumdgT5VIY7lv6A9pFyO4aaA46trwacv7dtJoJ2utodTG4SCU8r54VYC2LfV0cPrV9gITtYDpTOkh7XxmNvXzkzeGpTNq2iLV7dXIaY0Wv2jzx8lsp+9zEeJhah545Ho+yIyFeOQERsG/Yio4xlsLLJjkKzA2X6cEGeRJiwH/PGyUGhOJAynpm3M/7rL66NbvUIYn0D35gE16z3SX8NVWX8ru3pxK/S9pa7KnMmu/xWzz+0tS1WZI3Z17EOXJBglP3r8TEi0VBpA72uRKBxCivXyoz3bBoJ5JlbpzyqfNr+b+DAxf1ybcF3UJoRsAtdFSZi5XqsQRI2p6VIq0YF6AZREm/1xbvmKhxdchGLMly1+ZSFHkAhdaNJc3qU1Se24MxEuxwyt9Onz/lg/u+uzfJO7JvEYI6CbHEOBG/p1yEVV+X3bLfJ8JV4dF76BX+GXBlUtWWbpW8kBDRfpmkIB0nXcHcSLQmLmRAXuA5/iG5XUFaxZm5brZb+RxIHbT7s84W2sWm8JGre9+bqLu96b3/wHvirHboRIAAA==</value>
   </data>
-  <data name="IncorrectValue" xml:space="preserve">
-    <value>Nieprawidłowa wartość</value>
-  </data>
-  <data name="NumberGenerate" xml:space="preserve">
-    <value>Losuje numery</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>
