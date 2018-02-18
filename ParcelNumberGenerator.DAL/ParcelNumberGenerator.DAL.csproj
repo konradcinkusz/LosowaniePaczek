@@ -57,11 +57,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201802171822152_initital.cs" />
-    <Compile Include="Migrations\201802171822152_initital.Designer.cs">
-      <DependentUpon>201802171822152_initital.cs</DependentUpon>
+    <Compile Include="Migrations\201802181130128_initial.cs" />
+    <Compile Include="Migrations\201802181130128_initial.Designer.cs">
+      <DependentUpon>201802181130128_initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\ParcelNumberGeneratorContext.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,8 +72,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201802171822152_initital.resx">
-      <DependentUpon>201802171822152_initital.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802181130128_initial.resx">
+      <DependentUpon>201802181130128_initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -7,13 +7,13 @@ namespace ParcelNumberGenerator.DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class initital : IMigrationMetadata
+    public sealed partial class initial : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(initital));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(initial));
         
         string IMigrationMetadata.Id
         {
-            get { return "201802171822152_initital"; }
+            get { return "201802181130128_initial"; }
         }
         
         string IMigrationMetadata.Source

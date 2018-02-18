@@ -10,10 +10,11 @@ namespace ParcelNumberGenerator.DAL.Models
 {
     public class ParcelNumberGeneratorContext : DbContext
     {
-        public ParcelNumberGeneratorContext() : base("DefaultConnection")
+        public ParcelNumberGeneratorContext() : base("ParcelNumberGenerator")
         {
 
         }
-        public DbSet<User> User { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

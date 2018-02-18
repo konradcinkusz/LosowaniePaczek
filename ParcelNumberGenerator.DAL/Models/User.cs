@@ -12,6 +12,10 @@ namespace ParcelNumberGenerator.DAL.Models
 {
     public class User
     {
+        public User()
+        {
+
+        }
         [Key]
         public int Id { get; set; }
         public string Name { get; set; }

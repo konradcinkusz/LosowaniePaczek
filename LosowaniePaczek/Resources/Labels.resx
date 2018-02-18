@@ -123,4 +123,7 @@
   <data name="IncorrectValue" xml:space="preserve">
     <value>Nieprawidłowa wartość</value>
   </data>
+  <data name="NumberGenerate" xml:space="preserve">
+    <value>Losuje numery</value>
+  </data>
 </root>
