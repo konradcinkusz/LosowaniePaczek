@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DBOperation.cs" />
     <Compile Include="INumberPoolGenerator.cs" />
     <Compile Include="Base\NumberPoolDBv2.cs" />
     <Compile Include="NumberPoolRange.cs" />

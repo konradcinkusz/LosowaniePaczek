@@ -61,10 +61,17 @@
     <Compile Include="Migrations\201802181130128_initial.Designer.cs">
       <DependentUpon>201802181130128_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201802181300030_next.cs" />
+    <Compile Include="Migrations\201802181300030_next.Designer.cs">
+      <DependentUpon>201802181300030_next.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201802181313553_next1.cs" />
+    <Compile Include="Migrations\201802181313553_next1.Designer.cs">
+      <DependentUpon>201802181313553_next1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\ParcelNumberGeneratorContext.cs" />
-    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UsedNumbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +81,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201802181130128_initial.resx">
       <DependentUpon>201802181130128_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181300030_next.resx">
+      <DependentUpon>201802181300030_next.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201802181313553_next1.resx">
+      <DependentUpon>201802181313553_next1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
